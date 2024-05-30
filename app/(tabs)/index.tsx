@@ -8,10 +8,10 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
+      headerBackgroundColor={{ light: '#8EB4AD', dark: '#8EB4AD' }}
       headerImage={
         <Image
-          source={require('@/assets/images/redes.png')}
+          source={require('@/assets/images/chatt.png')}
           style={styles.foto}
         />
       }>
@@ -24,7 +24,10 @@ export default function HomeScreen() {
           Acesse a próxima página para visualizar todas as redes sociais.
         </ThemedText>
       </ThemedView>
-     
+      <Image
+          source={require('@/assets/images/iconrede.png')}
+          style={styles.fotorede}
+        />
     </ParallaxScrollView>
   );
 }
@@ -47,11 +50,13 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
   foto: {
-    width: 400,
-    height: 200,
+    width: 300,
+    height: 197,
     marginTop: 50,
-    marginLeft:13,
-
-
+    marginLeft:50,
+  },
+  fotorede:{
+    width:360,
+    height:420,
   }
 });

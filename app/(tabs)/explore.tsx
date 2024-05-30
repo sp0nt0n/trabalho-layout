@@ -77,7 +77,8 @@ const styles = StyleSheet.create({
   },
   titleContainer: {
     flexDirection: 'row',
-    gap: 8,
+    alignItems:'center',
+    textAlign: 'center'
   },
   logos: {
     width: 80,
@@ -97,6 +98,7 @@ const styles = StyleSheet.create({
     height: 100,
     flexDirection: 'row',
     alignItems: 'center',
-    left:100,
-  }
+    left:10,
+  }, 
+  
 });
