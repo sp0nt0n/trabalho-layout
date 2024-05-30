@@ -50,10 +50,10 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
   foto: {
-    width: 300,
+    width: 200,
     height: 197,
     marginTop: 50,
-    marginLeft:50,
+    marginLeft:110,
   },
   fotorede:{
     width:360,
