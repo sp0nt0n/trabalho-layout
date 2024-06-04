@@ -57,7 +57,7 @@ export default function TabTwoScreen() {
           style={styles.logos}
         />
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => Linking.openURL('https://web.whatsapp.com/')}>
+      <TouchableOpacity onPress={() => Linking.openURL('tel: +55 18 99810-7567')}>
         <Image
           source={require('@/assets/images/6.png')}
           style={styles.logos}
